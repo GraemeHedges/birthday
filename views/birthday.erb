@@ -1,3 +1,5 @@
-<%= @name %>
-<%= @birthday %>
+<% if @checked = true %>
 Happy Birthday!
+<% else %>
+it is x (where x is some code) days to your birthday
+<% end %>
